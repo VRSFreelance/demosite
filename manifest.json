@@ -2,7 +2,7 @@
   "name": "Hadal Technologies",
   "short_name": "HadalTech",
   "description": "Depth of Innovation, Height of Success",
-  "start_url": "/index.html",
+  "start_url": "./index.html",
   "scope": "/",
   "display": "standalone",
   "background_color": "#000000",
