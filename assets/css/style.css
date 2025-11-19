@@ -7,7 +7,7 @@
 
 /* -------------------- HEADER -------------------- */
 header{
-    width:100%;
+    width:100%; 
     height:90px;
     background:#1A242F;
     display:flex;
@@ -56,13 +56,17 @@ nav{
     margin-left:20px;
     cursor:pointer;
 }
-
+.imgsol{
+    width: 150px;
+    height: 150px;
+}
 /* -------------------- HERO -------------------- */
 
 .hero{
     width:100%;
     height:calc(100vh - 90px);
-    background:#0F78C9;
+    background:linear-gradient(135deg,#0F78C9,#012B4F);
+    /* background:#0F78C9; */
     display:flex;
     align-items:center;
     justify-content:space-between;
@@ -217,7 +221,7 @@ nav{
 }
 
 .why-card h3 {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 600;
   color: #2EB5F5;
 }
@@ -591,3 +595,324 @@ nav{
     }
 }
 
+/* Section Background */
+.contact-section {
+    padding: 50px 0;
+}
+
+/* Two Column Layout */
+.contact-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+/* Form Section */
+.contact-form {
+    flex: 1;
+}
+
+.contact-form h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Inputs */
+.contact-input,
+.contact-textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+/* Split Inputs */
+.row {
+    display: flex;
+    gap: 15px;
+}
+
+.half {
+    width: 100%;
+}
+
+/* Textarea */
+.contact-textarea {
+    height: 120px;
+    resize: none;
+}
+
+/* Button */
+.contact-btn {
+    padding: 12px 25px;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* Right Image */
+.contact-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-image img {
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .contact-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .contact-image img {
+        max-width: 300px;
+    }
+}
+
+/* =====================================================
+   0px – 600px  (Small Mobile to Large Mobile)
+===================================================== */
+@media (min-width: 0px) and (max-width: 600px) {
+
+    header {
+        padding: 0 20px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 20px;
+        height: auto;
+    }
+
+    .hero-content h1 {
+        font-size: 32px;
+    }
+
+    .subtitle {
+        font-size: 18px;
+    }
+
+    .cta {
+        font-size: 16px;
+        padding: 12px 30px;
+    }
+
+    .hero-img-placeholder {
+        width: 90%;
+        margin-top: 30px;
+    }
+
+    .why-hadal {
+        flex-direction: column;
+        gap: 40px;
+        padding: 40px 20px;
+    }
+
+    .divider {
+        display: none;
+    }
+
+    .why-card {
+        width: 100%;
+    }
+
+    .about-section {
+        padding: 40px 20px;
+    }
+
+    .about-section h2 {
+        font-size: 28px;
+    }
+
+    .about-section p {
+        font-size: 16px;
+    }
+
+    .services-icons {
+        gap: 20px;
+    }
+
+    #service-title {
+        font-size: 22px;
+        padding: 10px 25px;
+    }
+
+    .service-box {
+        padding: 20px;
+        font-size: 16px;
+        border-radius: 25px;
+    }
+
+    .service-btn {
+        width: 45px;
+        height: 45px;
+        font-size: 20px;
+    }
+
+    .contact-container {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .contact-image img {
+        max-width: 250px;
+        width: 100%;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+}
+
+
+/* =====================================================
+   600px – 768px (Large Mobiles / Small Tablets)
+===================================================== */
+@media (min-width: 600px) and (max-width: 768px) {
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 60px 30px;
+    }
+
+    .hero-img-placeholder {
+        width: 70%;
+    }
+
+    .about-section h2 {
+        font-size: 32px;
+    }
+
+    .about-section p {
+        font-size: 18px;
+    }
+
+    .service-box {
+        font-size: 18px;
+        padding: 25px;
+    }
+
+    .contact-container {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+
+/* =====================================================
+   768px – 1024px (Tablets)
+===================================================== */
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    header {
+        padding: 0 30px;
+    }
+
+    .hero {
+        text-align: center;
+        padding: 60px 40px;
+        height: auto;
+    }
+
+    .hero-img-placeholder {
+        width: 60%;
+    }
+
+    .service-box {
+        padding: 30px;
+    }
+
+    .contact-container {
+        flex-direction: column;
+        text-align: center;
+        gap: 40px;
+    }
+}
+
+
+/* =====================================================
+   1024px – 1280px (Small Laptops)
+===================================================== */
+@media (min-width: 1024px) and (max-width: 1280px) {
+
+    .hero-content h1 {
+        font-size: 48px;
+    }
+
+    .contact-container {
+        gap: 40px;
+    }
+
+    .footer-container {
+        gap: 40px;
+    }
+}
+
+
+/* =====================================================
+   1280px – 1440px (Standard Desktops)
+===================================================== */
+@media (min-width: 1280px) and (max-width: 1440px) {
+
+    .hero {
+        padding: 100px 80px;
+    }
+
+    .hero-content h1 {
+        font-size: 58px;
+    }
+
+    .service-box {
+        font-size: 20px;
+    }
+}
+
+
+/* =====================================================
+   1440px+ (Large Screens)
+===================================================== */
+@media (min-width: 1440px) {
+
+    .hero {
+        padding: 120px 120px;
+    }
+
+    .hero-content h1 {
+        font-size: 70px;
+    }
+
+    .contact-image img {
+        max-width: 550px;
+    }
+}
