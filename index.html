@@ -7,16 +7,12 @@
 
 <!-- Google Font -->
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<!-- Main Styles --> <link rel="stylesheet" href="assets/css/style.css"> <!-- SVG Animation Styles --> <link rel="stylesheet" href="assets/css/svg.css">
- 
 
-<!-- PWA Support -->
-<link rel="manifest" href="./manifest.json">
-<meta name="theme-color" content="#000000">
+<!-- Main Styles -->
+<link rel="stylesheet" href="assets/css/style.css">
 
-<!-- iOS Support -->
-<link rel="apple-touch-icon" href="assets/icons/icon-72.png">
-<meta name="apple-mobile-web-app-capable" content="yes">
+<!-- SVG Animation Styles -->
+<link rel="stylesheet" href="assets/css/svg.css">
 
 </head>
 <body>
@@ -40,6 +36,7 @@
 <!-- ================= HERO ================= -->
 <section class="hero">
 
+    <!-- Particle Background -->
     <div id="particles-js"></div>
 
     <div class="hero-content">
@@ -49,36 +46,43 @@
     </div>
 
     <div class="hero-img-placeholder">
-        <object data="assets/svg/hero-graphic.svg" type="image/svg+xml"></object>
+        <object data="assets/images/logoAsset 6.svg" type="image/svg+xml" class="hero-svg"></object>
     </div>
 
 </section>
 
-<!-- ================= WHY SECTION ================= -->
-<section class="why-hadal reveal">
+
+<!-- ================= WHY US SECTION ================= -->
+<section class="why-hadal">
     <div class="why-card">
-        <img src="assets/images/image1.png">
+        <img src="assets/images/logoAsset 1.svg" class="why-icon" alt="Experienced Developers">
         <h3>Experienced Developers</h3>
     </div>
+
     <div class="divider"></div>
+
     <div class="why-card">
-        <img src="assets/images/image2.png">
+        <img src="assets/images/logoAsset 3.svg" class="why-icon" alt="Customised Solutions">
         <h3>Customised Solutions</h3>
     </div>
+
     <div class="divider"></div>
+
     <div class="why-card">
-        <img src="assets/images/image3.png">
+        <img src="assets/images/logoAsset 4.svg" class="why-icon" alt="Innovative Approach">
         <h3>Innovative Approach</h3>
     </div>
+
     <div class="divider"></div>
+
     <div class="why-card">
-        <img src="assets/images/image4.png">
+        <img src="assets/images/logoAsset 5.svg" class="why-icon" alt="Client-Centric Focus">
         <h3>Client - Centric Focus</h3>
     </div>
 </section>
 
-<!-- ================= ABOUT ================= -->
-<section class="about-section reveal">
+
+<section class="about-section">
     <div class="about-content">
         <h2>WHO ARE WE !!</h2>
         <p>
@@ -92,8 +96,9 @@
 </section>
 
 <!-- ================= SERVICES CAROUSEL ================= -->
-<section class="services-section reveal">
+<section class="services-section">
 
+    <!-- Top Service Icons -->
     <div class="services-icons">
         <img src="assets/images/web.png" class="service-icon active" data-id="0">
         <img src="assets/images/mobile.png" class="service-icon" data-id="1">
@@ -103,8 +108,10 @@
         <img src="assets/images/seo.png" class="service-icon" data-id="5">
     </div>
 
+    <!-- Title -->
     <h2 id="service-title">WEB DEVELOPMENT</h2>
 
+    <!-- Content Box -->
     <div class="service-box">
         <p id="service-text">
             Hadal Technologies specializes in building secure, responsive and highly scalable
@@ -112,6 +119,7 @@
         </p>
     </div>
 
+    <!-- Navigation -->
     <div class="service-nav">
         <button id="prevBtn" class="service-btn">←</button>
         <button id="nextBtn" class="service-btn">→</button>
@@ -121,11 +129,13 @@
 
 </section>
 
-<!-- ================= CONTACT ================= -->
-<section class="contact-section reveal">
+
+<!-- ================= CONTACT SECTION ================= -->
+<section class="contact-section">
 
     <div class="contact-container">
 
+        <!-- Left Form Area -->
         <div class="contact-form">
 
             <h2>Contact Us</h2>
@@ -142,23 +152,26 @@
             <button class="contact-btn">Submit</button>
         </div>
 
+        <!-- Right Side Image -->
         <div class="contact-image">
-            <img src="assets/images/contact-support.png" alt="Contact Support">
+            <img src="assets/images/logoAsset 7.svg" alt="Contact Support">
         </div>
     </div>
 
 </section>
 
 <!-- ================= FOOTER ================= -->
-<footer class="footer reveal">
+<footer class="footer">
 
     <div class="footer-container">
 
+        <!-- Address -->
         <div class="footer-column">
             <h3>ADDRESS</h3>
             <p>Copy Rights<br>Reserved by<br>HadalTech Team<br>Pin:</p>
         </div>
 
+        <!-- Services -->
         <div class="footer-column">
             <h3>SERVICES</h3>
             <a href="#">Home</a>
@@ -169,6 +182,7 @@
             <a href="#">Privacy Policy</a>
         </div>
 
+        <!-- Quick Links -->
         <div class="footer-column">
             <h3>Quick Links</h3>
             <a href="#">Home</a>
@@ -179,20 +193,22 @@
             <a href="#">Privacy Policy</a>
         </div>
 
+        <!-- Contact -->
         <div class="footer-column">
             <h3>Contact</h3>
             <p>Mobile No: 1234567890<br>Mail ID: mail@domain.com</p>
 
             <div class="social-icons">
-                <img src="assets/icons/instagram.png">
-                <img src="assets/icons/twitter.png">
-                <img src="assets/icons/facebook.png">
-                <img src="assets/icons/linkedin.png">
-                <img src="assets/icons/google.png">
+                <img src="assets/icons/instagram.png" alt="Instagram">
+                <img src="assets/icons/twitter.png" alt="Twitter">
+                <img src="assets/icons/facebook.png" alt="Facebook">
+                <img src="assets/icons/linkedin.png" alt="LinkedIn">
+                <img src="assets/icons/google.png" alt="Google">
             </div>
         </div>
     </div>
 
+    <!-- Bottom Bar -->
     <div class="footer-bottom">
         <p>Copy Rights Reserved by - HadalTech Team</p>
         <div class="footer-right">
@@ -202,53 +218,94 @@
 
 </footer>
 
+
 <!-- ================= SCRIPTS ================= -->
 
+<!-- Particles.js -->
 <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
 <script>
-particlesJS("particles-js",{particles:{number:{value:150,density:{enable:true,value_area:800}},color:{value:"#ffffff"},shape:{type:"circle"},opacity:{value:0.3},size:{value:3,random:true},line_linked:{enable:true,distance:140,color:"#ffffff",opacity:0.2,width:1},move:{enable:true,speed:2}},interactivity:{events:{onhover:{enable:true,mode:"grab"},onclick:{enable:true,mode:"push"}}},retina_detect:true});
-</script>
-
-<script>
-// Scroll Reveal
-const revealItems=document.querySelectorAll(".reveal");
-window.addEventListener("scroll",()=>{
-  revealItems.forEach(el=>{
-    if(el.getBoundingClientRect().top < window.innerHeight*0.85){
-      el.classList.add("active");
+particlesJS("particles-js", {
+  "particles": {
+    "number": { "value": 150, "density": { "enable": true, "value_area": 800 } },
+    "color": { "value": "#ffffff" },
+    "shape": { "type": "circle" },
+    "opacity": { "value": 0.3 },
+    "size": { "value": 3, "random": true },
+    "line_linked": { "enable": true, "distance": 140, "color": "#ffffff", "opacity": 0.2, "width": 1 },
+    "move": { "enable": true, "speed": 2 }
+  },
+  "interactivity": {
+    "events": {
+      "onhover": { "enable": true, "mode": "grab" },
+      "onclick": { "enable": true, "mode": "push" }
     }
-  })
+  },
+  "retina_detect": true
 });
 </script>
 
+<!-- Load external CSS into the loaded SVG -->
 <script>
-// Mobile menu
+document.querySelector(".hero-svg").addEventListener("load", function () {
+    const svgDoc = this.contentDocument;
+    const styleLink = svgDoc.createElement("link");
+    styleLink.rel = "stylesheet";
+    styleLink.href = "assets/css/svg.css";
+    svgDoc.documentElement.appendChild(styleLink); // FIXED
+});
+</script>
+
+<!-- Mobile Menu -->
+<script>
 const toggle=document.querySelector(".menu-toggle");
 const nav=document.querySelector(".nav-links");
 toggle.addEventListener("click",()=>nav.classList.toggle("open"));
 </script>
 
 <script>
-// SERVICE SLIDER
 const services = [
-  { title:"WEB DEVELOPMENT", text:"We build secure and scalable websites, dashboards, ecommerce and SaaS platforms.", link:"#" },
-  { title:"MOBILE APP DEVELOPMENT", text:"Android, iOS and hybrid app solutions tailored for business growth.", link:"#" },
-  { title:"DIGITAL MARKETING", text:"SEO, ads, analytics and strategy that build brand authority and conversions.", link:"#" },
-  { title:"GRAPHIC DESIGN", text:"User-centric branding, UI/UX, logo design and corporate branding solutions.", link:"#" },
-  { title:"CLOUD SERVICES", text:"Cloud deployment, migration, hosting, scaling and infrastructure management.", link:"#" },
-  { title:"SEO & OPTIMIZATION", text:"Improve ranking, speed, audits and performance optimization for visibility.", link:"#"}
+  {
+    title: "WEB DEVELOPMENT",
+    text: "We build secure and scalable websites, dashboards, ecommerce and SaaS platforms.",
+    link: "#"
+  },
+  {
+    title: "MOBILE APP DEVELOPMENT",
+    text: "Android, iOS and hybrid app solutions tailored for business growth.",
+    link: "#"
+  },
+  {
+    title: "DIGITAL MARKETING",
+    text: "SEO, ads, analytics and strategy that build brand authority and conversions.",
+    link: "#"
+  },
+  {
+    title: "GRAPHIC DESIGN",
+    text: "User-centric branding, UI/UX, logo design and corporate branding solutions.",
+    link: "#"
+  },
+  {
+    title: "CLOUD SERVICES",
+    text: "Cloud deployment, migration, hosting, scaling and infrastructure management.",
+    link: "#"
+  },
+  {
+    title: "SEO & OPTIMIZATION",
+    text: "Improve ranking, speed, audits and performance optimization for visibility.",
+    link: "#"
+  }
 ];
 
 let index = 0;
 
 const icons = document.querySelectorAll(".service-icon");
-const titleEl = document.getElementById("service-title");
-const textEl = document.getElementById("service-text");
+const title = document.getElementById("service-title");
+const text = document.getElementById("service-text");
 const learnMore = document.getElementById("learnMore");
 
 function updateService(){
-  titleEl.textContent = services[index].title;
-  textEl.textContent = services[index].text;
+  title.textContent = services[index].title;
+  text.textContent = services[index].text;
   learnMore.href = services[index].link;
 
   icons.forEach(i=>i.classList.remove("active"));
@@ -270,42 +327,6 @@ icons.forEach(icon=>{
     updateService();
   };
 });
-</script>
-<script>
-let deferredPrompt;
-window.addEventListener("beforeinstallprompt", (event) => {
-  event.preventDefault();
-  deferredPrompt = event;
-  const installBtn = document.getElementById("installApp");
-  installBtn.style.display = "block";
-
-  installBtn.onclick = () => {
-    installBtn.style.display = "none";
-    deferredPrompt.prompt();
-  };
-});
-</script>
-
-<button id="installApp" style="
-    display:none;
-    position:fixed;
-    bottom:20px;
-    right:20px;
-    padding:12px 20px;
-    background:#007bff;
-    color:white;
-    border-radius:10px;
-    border:none;
-    font-size:16px;
-    cursor:pointer;
-">📥 Install HadalTech</button>
-
-<script>
-if ("serviceWorker" in navigator) {
-  navigator.serviceWorker.register("./service-worker.js")
-    .then(() => console.log("PWA Active"))
-    .catch(err => console.log("SW Error", err));
-}
 </script>
 
 </body>
