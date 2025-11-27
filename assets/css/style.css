@@ -148,6 +148,9 @@ nav{
         width:80%;
         margin-top:40px;
     }
+  .hero-content {
+  max-width: 100%;
+}
 }
 @media(max-width:850px){
     .nav-links{
@@ -163,6 +166,10 @@ nav{
     }
     .nav-links.open{ display:flex; }
     .menu-toggle{ display:block; }
+
+  .hero-content {
+  max-width: 100%;
+}
 }
 @media(max-width:600px){
     .hero-content h1{ font-size:42px; }
