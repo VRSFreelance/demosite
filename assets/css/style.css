@@ -181,6 +181,11 @@ nav{
   .hero-content {
     max-width: 100%;
   }
+  .socialcon{
+    margin: 0 auto;
+  text-align: center;
+  display: block;
+  margin-top: 10px;
 }
 
 /* SVG Animations */
