@@ -171,6 +171,9 @@ nav{
         font-size:18px;
         padding:15px 40px;
     }
+  .hero-content {
+    max-width: 100%;
+  }
 }
 
 /* SVG Animations */
